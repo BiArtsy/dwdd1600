@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Graphic Design: Home</title>
+    <link rel="stylesheet" href="graphicdesign.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,inital-scale=1">
+    <meta
+      name="description"
+      content="Learn about Graphic Design with its History, Knowledge and Skills"
+    />
+    <meta name="author" content="Mardi Speckart" />
+    <meta name="viewport" content="width device-width inital-scale=1" />
+    <link rel="icon" type="image/x-icon" href="gdfavicon.ico">
+  </head>
+  <body>
+    <!--Start of the page header-->
+    <header>
+      <img src="gdimages/logo2.PNG" alt="site logo" width="55" height="63">
+      <div>
+        <h1>Graphic Design</h1>
+        <p>Know what you would want to know about Graphic Design</p>
+      </div>
+    </header>
+    <!--Start of the page navigation-->
+    <nav>
+      <ul>
+        <li ><a href="index.html">History of Graphic Design</a></li>
+        <li><a href="tools.html">Tools used by Graphic Designers</a></li>
+        <li><a href="icons.html">Icons and Uses</a></li>
+        <li class="active"> <a href="survey.html">Survey</a></li>
+        <li> <a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+    <!--Start of the page content-->
+    <main>
+      <h1>Survey</h1>
+     <form method="get" class="myform" action="thanks.html">
+      <fieldset>
+      <legend>Customer Information</legend>
+      <label>First Name*<input type="text" name="fname" required></label>
+      <label>Last Name*<input type="text" name="lname" required></label>
+      <label>Cell Number*<input type="tel" name="phone" required placeholder="987-555-1234"></label>
+        <label>Email*<input type="email" name="email" required></label>
+        <label>Skill Level
+        <select name="skill level">
+          <option value="none">Please Select</option>
+          <option value="Beginner">Beginner</option>
+          <option value="Intermediate">Intermediate</option>
+          <option value="Expert">Expert</option>
+        </select>
+        </label>
+    </fieldset>
+    <fieldset>
+      <legend>Please indicate your specific design needs</legend>
+      <label><input type="radio" name="needs" value="web design">Web Design</label>
+      <label><input type="radio" name="needs" value="brochure">Brochure</label>
+      <label><input type="radio" name="needs" value="Logo">Logo</label>
+      <label><input type="radio" name="needs" value="Ads">Ads(digital or print)</label>
+      <label><input type="radio" name="needs" value="Sales materials">Sales Materials</label>
+      <label><input type="radio" name="needs" value="Physical products">Physical Products(t-shirts,mugs,stickers,etc.)</label>
+      <label><input type="radio" name="needs" value="Images for a blog">Images for a blog</label>
+      <label><input type="radio" name="needs" value="other">Other</label>
+    </fieldset>
+    <fieldset>
+      <legend>What services or products do you offer?</legend>
+     <label> <input type="checkbox" name="branding" value="chosen"> Branding</label>
+     <label> <input type="checkbox" name="Fonts" value="chosen">Fonts</label>
+     <label> <input type="checkbox" name="Infographics" value="chosen"> Infographics</label>
+     <label> <input type="checkbox" name="App Design" value="chosen"> App Design</label>
+     <label> <input type="checkbox" name="Social Media Creative" value="chosen"> Social Media Creative</label>
+     <label> <input type="checkbox" name="illustrations" value="chosen"> Illustrations</label>
+     <label> <input type="checkbox" name="Flyers" value="chosen"> Flyers</label>
+    </fieldset>
+    <label>What is the ideal outcome for this project? (Attract new customers, rebranding, etc.)
+      <textarea name="What is the ideal outcome for this project? (Attract new customers, rebranding, etc.)"></textarea>
+
+
+    </label>
+
+
+
+
+
+      <input type="submit" value="Complete Survey">
+     </form>
+
+
+    </main>
+    <!--Start of the page footer-->
+    <footer>
+      <p>
+        &copy; 2023 &bull; Mardi Speckart &bull;
+        <a href="mailto:speckart22@gmail.com">Email Us</a>
+      </p>
+    </footer>
+  </body>
+</html>
